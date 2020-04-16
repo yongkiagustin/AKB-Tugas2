@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/ic_welcome_logo"></ImageView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:hint="Username"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/shape_button_white"
+        android:text="masuk"
+        android:textColor="@android:color/white"></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="4dp"
+        android:text="OR"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/shape_button_white"
+        android:drawableLeft="@drawable/fb"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Connect with facebook"
+        android:textColor="@android:color/white"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp8">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="4dp"
+            android:text="Doesn't have account? "
+            android:textColor="@android:color/white"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="4dp"
+            android:onClick="register_TextView"
+            android:text="Register"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</LinearLayout>
