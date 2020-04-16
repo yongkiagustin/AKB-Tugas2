@@ -37,12 +37,14 @@
         android:padding="@dimen/dp24">
 
         <EditText
+
+            android:id="@+id/username_edittext"
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp48"
             android:layout_marginBottom="@dimen/dp8"
             android:autofillHints="@string/regis_txt_username"
             android:hint="@string/regis_txt_username"
-            android:inputType="text"
+            android:inputType="textCapWords"
             android:textColor="@android:color/black" />
 
         <EditText
@@ -60,7 +62,7 @@
             android:layout_marginBottom="@dimen/dp8"
             android:autofillHints="@string/regis_txt_phone"
             android:hint="@string/regis_txt_phone"
-            android:inputType="textEmailAddress"
+            android:inputType="number"
             android:textColor="@android:color/black" />
 
         <RadioGroup
@@ -173,6 +175,7 @@
             android:background="@android:color/darker_gray" />
 
         <CheckBox
+            android:id="@+id/agree_chbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/dp8"
@@ -184,11 +187,11 @@
             android:paddingBottom="@dimen/dp24">
 
             <Button
+                android:id="@+id/regis_btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:background="@drawable/shape_button_blue"
-                android:onClick="regis_btn"
                 android:text="@string/register_name" />
         </RelativeLayout>
 

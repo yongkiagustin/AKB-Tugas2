@@ -11,7 +11,7 @@
     <string name="regis_txt_phone">Phone Number</string>
     <string name="regis_txt_male">Male</string>
     <string name="regis_txt_female">Female</string>
-    <string name="regis_txt_bloodtype">Blood Type</string>
+    <string name="regis_txt_bloodtype">Blood Type : </string>
     <string name="regis_txt_reshus">Reshus</string>
     <string name="regis_txt_personal">Personal</string>
     <string name="regis_txt_organization">Organization</string>
@@ -28,6 +28,16 @@
     <string name="verify_resend"><b> Resend</b></string>
     <string name="verify_account">Verify your Account</string>
     <string name="almost_thanks">Thank you for registering with us. One more step, You need to check your email to active your account</string>
+
+    <string name="home_blood_give">Blood Give</string>
+    <string name="home_blood_received">Blood Received</string>
+    <string name="home_thanks">Thanks</string>
+    <string name="home_search_donor">Seach Donor</string>
+    <string name="home_blodd_needed">Blood Needed</string>
+    <string name="home_message">Message</string>
+    <string name="home_donor_history">Donor History</string>
+
+
 
     <string-array name="blood_type">
         <item>Blood Type</item>

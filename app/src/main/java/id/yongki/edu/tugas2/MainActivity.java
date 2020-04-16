@@ -8,6 +8,9 @@ package id.yongki.edu.tugas2;
 //- SENIN 13 APRIL 2020 11:00 LAYOUTING ACITIVITY_ALMOST
 //- SENIN 13 APRIL 2020 13:00 LAYOUTING ACITIVITY_VERIFY
 //- SENIN 13 APRIL 2020 14:00 MEMBUAT INTENT VERIFY ACTIVITY DAN ALMOST ACIVITY
+//- RABU 15 APRIL 2020 16:00 LAYOUTING ACIVITY HOME
+//- KAMIS 16 APRIL 2020 13:00 MEMBUAT FUNGSI STORAGE.JAVA
+//- KAMIS 16 APRIL 2020 19:00 MERAPIHKAN LAYOUT ACIVITY HOME
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -15,6 +18,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 
+import butterknife.BindView;
 import id.yongki.edu.tugas2.R;
 import id.yongki.edu.tugas2.RegisterActivity;
 
