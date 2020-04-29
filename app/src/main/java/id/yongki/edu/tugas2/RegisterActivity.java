@@ -28,6 +28,8 @@ public class RegisterActivity extends AppCompatActivity {
     Spinner spBlood;
     @BindView(R.id.agree_chbox)
     CheckBox agreeCheckBox;
+    @BindView(R.id.regis_toolbar)
+    Toolbar toolbar;
 
 
     public void toastMsg(String msg) {
@@ -42,7 +44,6 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         ButterKnife.bind(this);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.regis_toolbar);
         setActionBar(toolbar);
 
 
